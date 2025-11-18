@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/gallery.css') }}">
+</head>
+<body>
+
+<h1 class="title">vegetable Gallery</h1>
+
+<div class="gallery-container">
+    <img src="{{ url_for('static', filename='images/vegetable1.jpg.JPG') }}" class="gallery-img">
+    <img src="{{ url_for('static', filename='images/vegetable2.jpg.JGP') }}" class="gallery-img">
+    <img src="{{ url_for('static', filename='images/vegetable3.jpg.jpg') }}" class="gallery-img">
+    <img src="{{ url_for('static', filename='images/vegetable4.jpg.jpg') }}" class="gallery-img">
+    <img src="{{ url_for('static', filename='images/vegetable5.jpg.jpg') }}" class="gallery-img">
+    <img src="{{ url_for('static', filename='images/vegetable6.jpg.JGP') }}" class="gallery-img">
+    <img src="{{ url_for('static', filename='images/vegetable7.jpg.JGP') }}" class="gallery-img">
+</div>
+
+<script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+
+</body>
+</html>
+

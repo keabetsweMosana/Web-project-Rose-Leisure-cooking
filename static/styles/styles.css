@@ -1,0 +1,210 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 4%, 72%);
+    color: hsl(0, 21%, 87%);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+    color: hsl(200, 67%, 53%);
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #0088cc;
+}
+
+a:hover {
+    color: #005f7f;
+}
+
+#buttons
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005f7f;
+    transform: scale(1.05);
+}
+
+#nav bar for index 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    border-bottom: 3px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #0088cc;
+}
+
+#index styling
+
+.home {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f0f8ff, #e0ffff);
+    border-radius: 12px;
+    margin: 20px;
+    animation: fadeIn 1s ease;
+}
+
+.home h1 {
+    font-size: 36px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#contact page styling
+
+.contact-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+    animation: fadeIn 1s ease forwards;
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+    border-color: #0088cc;
+    box-shadow: 0 0 8px rgba(0, 136, 204, 0.3);
+    transition: all 0.3s ease;
+}
+
+#gallery styling
+
+.gallery-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+#bookings styling
+
+.booking-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease forwards;
+}
+
+.booking-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-container form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.booking-container form select,
+.booking-container form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.booking-container form select:hover,
+.booking-container form input:hover {
+    border-color: #0088cc;
+    box-shadow: 0 0 8px rgba(0,136,204,0.3);
+}
+
+
